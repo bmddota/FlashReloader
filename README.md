@@ -1,6 +1,8 @@
 # FlashReloader
 A work-in-progress scaleform UI reloader proxy for reducing the need to restart the workshop tools for every UI update.
 
+*Please note that currently this code is only minimally functional and is not meant for actual use.  Once/if it becomes possible to diagnose and fix the major issues remaining, it may become useful at that point.*
+
 ## Instructions
 Install the FlashReloader.swf in your addon's resource/flash3 directory.
 Rename your old custom_ui.txt to be "reloader.txt".  FlashReloader will use this file to determine which UI files to proxy on reload.
