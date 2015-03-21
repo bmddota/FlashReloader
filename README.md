@@ -6,7 +6,7 @@ Install the FlashReloader.swf in your addon's resource/flash3 directory.
 Rename your old custom_ui.txt to be "reloader.txt".  FlashReloader will use this file to determine which UI files to proxy on reload.
 Use the custom_ui.txt provided for you in this repo in place of your old one(it contains only a reference to this swf.)
 
-When you launch the workshop tools, you should see your UI as normal with only a single "UPDATE+RESTART" button added to the bottom right of the screen.  Clicking this button will unload all UI files handled by FlashReloader.swf and then restart the game 2.5 seconds later.  Issuing a "restart" to the console may also work, though it's possible for the game to reload quicker than it garbage collects the old UI.
+When you launch the workshop tools, you should see your UI as normal with only a single "UPDATE+RESTART" button added to the bottom right of the screen.  If you require the restart.lua provided (or simply copy in the command registration) inside your game mode vscript code, then clicking this button will unload all UI files handled by FlashReloader.swf and then restart the game 2.5 seconds later.  Issuing a "restart" to the console may also work, though it's possible for the game to reload quicker than it garbage collects the old UI.
 
 When you want to release your game mode, you can rename your "reloader.txt" to be "custom_ui.txt" once more, and the game should load everything the same (but without the reloader proxy).
 
